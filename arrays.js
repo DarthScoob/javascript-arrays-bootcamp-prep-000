@@ -4,8 +4,8 @@ var chocolateBars = [
   'kitkat', 
   'skittles'];
 
-function addElementToBeginningOfArray([1], element'foo') {
-  chocolateBars.push(payday);
+function addElementToBeginningOfArray([1], foo) {
+ 
 }
 
 function destructivelyAddElementToBeginningOfArray() {
