@@ -3,8 +3,8 @@ var chocolateBars = ["snickers",
   "kitkat", 
   "skittles"];
   
-function addElementToBeginningOfArray(chocolateBars, Payday){
-  return [Payday, ...chocolateBars];
+function addElementToBeginningOfArray(chocolateBars, candyString){
+  return [candyString, ...chocolateBars];
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, Payday){
