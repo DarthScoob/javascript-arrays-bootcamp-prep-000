@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(chocolateBars, payday){
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, payday){
   chocolateBars.unshift(payday);
-  return payday;
+  return chocolateBars;
 }
 
 function addElementToEndOfArray(chocolateBars, payday){
