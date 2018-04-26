@@ -7,8 +7,8 @@ function addElementToBeginningOfArray(chocolateBars, payday){
   return [payday, ...chocolateBars];
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, Payday){
-  chocolateBars.unshift(Payday);
+function destructivelyAddElementToBeginningOfArray(chocolateBars, payday){
+  chocolateBars.unshift(payday);
   return payday;
 }
 
