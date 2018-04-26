@@ -5,7 +5,7 @@ var chocolateBars = [
   'skittles'];
 
 function addElementToBeginningOfArray(chocolateBars, candyString) {
-  return [chocolateBars... ]
+  return [candyString... chocolateBars]
 }
 
 function destructivelyAddElementToBeginningOfArray() {
