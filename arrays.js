@@ -7,17 +7,17 @@ function addElementToBeginningOfArray(chocolateBars, Payday){
   return [Payday, ...chocolateBars];
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
-  chocolateBars.unshift(candyString);
-  return chocolateBars;
+function destructivelyAddElementToBeginningOfArray(chocolateBars, Payday){
+  chocolateBars.unshift(Payday);
+  return Payday;
 }
 
-function addElementToEndOfArray(chocolateBars, candyString){
-  return [...chocolateBars, candyString];
+function addElementToEndOfArray(chocolateBars, Payday){
+  return [...chocolateBars, Payday];
 }
 
-function destructivelyAddElementToEndOfArray(chocolateBars, candyString){
-  chocolateBars.push(candyString);
+function destructivelyAddElementToEndOfArray(chocolateBars, Payday){
+  chocolateBars.push(Payday);
   return chocolateBars;
 }
 
