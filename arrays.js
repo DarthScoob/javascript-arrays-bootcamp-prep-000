@@ -3,3 +3,5 @@ var chocolateBars = [
   'hundred grand', 
   'kitkat', 
   'skittles'];
+
+function 
