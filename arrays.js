@@ -3,21 +3,21 @@ var chocolateBars = ["snickers",
   "kitkat", 
   "skittles"];
   
-function addElementToBeginningOfArray(chocolateBars, Payday){
-  return [Payday, ...chocolateBars];
+function addElementToBeginningOfArray(chocolateBars, payday){
+  return [payday, ...chocolateBars];
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, Payday){
   chocolateBars.unshift(Payday);
-  return Payday;
+  return payday;
 }
 
-function addElementToEndOfArray(chocolateBars, Payday){
-  return [...chocolateBars, Payday];
+function addElementToEndOfArray(chocolateBars, payday){
+  return [...chocolateBars, payday];
 }
 
-function destructivelyAddElementToEndOfArray(chocolateBars, Payday){
-  chocolateBars.push(Payday);
+function destructivelyAddElementToEndOfArray(chocolateBars, payday){
+  chocolateBars.push(payday);
   return chocolateBars;
 }
 
