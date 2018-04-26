@@ -4,7 +4,7 @@ var chocolateBars = [
   'kitkat', 
   'skittles'];
 
-function addElementToBeginningOfArray(chocolateBars,) {
+function addElementToBeginningOfArray([chocolateBars], element) {
   chocolateBars.push(payday);
 }
 
